@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+input:focus {
+  border: 1px solid red;
+  color: red;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5c5c5c;
+  }
+@font-face {
+    font-family: Roboto;
+    
+    src: url('./Mock//Roboto/Roboto-Light.ttf' ) format('opentype');
+  }
+  body{
+    background: #242424;
+    overflow-y: hidden;
+  }
